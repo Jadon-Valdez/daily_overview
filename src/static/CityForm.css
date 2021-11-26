@@ -1,0 +1,38 @@
+.all{
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    float: center;
+}
+
+input{
+    width: 150px;
+    height: 20px;
+}
+
+button{
+    color: gray;
+    background-color: lightblue;
+    border-radius: 10px;
+    width: 80px;
+    height: 20px;
+    margin-top: 10px;
+}
+.weather{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    color: gray;
+    font-size: 27pt;
+    margin: 40px 0px 0px 25px;
+    position: relative;
+    left: -12px;
+    background-color: lightgray;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
